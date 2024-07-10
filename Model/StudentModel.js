@@ -45,7 +45,7 @@ const studentSchema = new mongoose.Schema({
   },
   verified: {
     type: Boolean,
-    default: false,
+    default: true,
   },
   mockInterview: {
     type: String,
